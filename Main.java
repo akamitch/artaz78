@@ -16,5 +16,6 @@ public class Main {
         User petr = gson.fromJson(s, User.class);
 
         System.out.println("name: " + petr.name + " age :" + petr.age);
+        
     }
 }
